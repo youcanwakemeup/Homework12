@@ -12,8 +12,8 @@ public class Book {
     public String getBookName() {
         return bookName;
     }
-    public String getAuthorName() {
-        return authorName.getFirstName() + ' ' + authorName.getLastName();
+    public Author getAuthorName() {
+        return authorName;
     }
     public int getYearOfBook() {
         return yearOfBook;
